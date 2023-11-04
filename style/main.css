@@ -210,3 +210,34 @@ body {
   font-family: var(--PL);
   font-size: 12px;
 }
+
+.main-projects {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 42px;
+}
+
+.project {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.main-projects-link {
+  display: flex;
+  align-items: center;
+  column-gap: 26px;
+}
+
+.main-projects-links {
+  color: var(--secondary);
+  text-align: center;
+  font-family: var(--PM);
+  font-size: 11px;
+}
+
+.active {
+  padding: 5px 18px;
+  border-radius: 26px;
+  color: var(--light);
+  background-color: #f3849f;
+}
