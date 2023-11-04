@@ -1,0 +1,62 @@
+@import url(./font.css);
+
+:root {
+  --PL: "Poppins-Light";
+  --PR: "Poppins-Regular";
+  --PM: "Poppins-Medium";
+  --PB: "Poppins-Bold";
+  --PEB: "Poppins-ExtraBold";
+  --secondary: #828282;
+  --gray: #4f4f4f;
+  --light: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 930px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.page-header {
+  background-color: #926ff6;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 43px;
+}
+
+.navbar-text {
+  color: var(--light);
+  font-family: var(--PB);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.header-nav {
+  display: flex;
+  column-gap: 18px;
+}
+
+.header-nav-link {
+  font-family: var(--PR);
+  color: var(--light);
+  font-size: 11px;
+}
+
+.header-banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
