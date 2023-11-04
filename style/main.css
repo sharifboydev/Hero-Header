@@ -115,3 +115,46 @@
   position: absolute;
   bottom: -10px;
 }
+
+.main-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 164px 105px;
+}
+
+.main-banner-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-banner-title {
+  max-width: 465px;
+  width: 100%;
+  color: var(--gray);
+  font-family: var(--PM);
+  font-size: 24px;
+  padding-block: 15px 30px;
+}
+
+.main-banner-text {
+  max-width: 419px;
+  width: 100%;
+  color: var(--gray);
+  font-family: var(--PL);
+  font-size: 16px;
+  padding-bottom: 35px;
+}
+
+.main-play {
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+  cursor: pointer;
+}
+
+.main-banner-play {
+  color: #f3849f;
+  font-family: var(--PB);
+  font-size: 16px;
+}
