@@ -9,6 +9,7 @@
   --secondary: #828282;
   --gray: #4f4f4f;
   --light: #fff;
+  --yellow: #ffe074;
 }
 
 * {
@@ -20,7 +21,7 @@
 }
 
 .container {
-  max-width: 930px;
+  max-width: 970px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
@@ -59,4 +60,25 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-block: 85px 97px;
+}
+
+.header-banner-text {
+  color: var(--yellow);
+  font-family: var(--PEB);
+  font-size: 12px;
+}
+
+.header-banner-title {
+  color: var(--light);
+  font-family: var(--PEB);
+  font-size: 62px;
+  padding: 30px;
+}
+
+.header-banner_title-text {
+  color: var(--light);
+  font-family: var(--PL);
+  font-size: 16px;
+  padding-bottom: 30px;
 }
