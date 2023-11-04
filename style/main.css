@@ -27,6 +27,10 @@
   padding: 0 20px;
 }
 
+body {
+  background-color: #fcfcfc;
+}
+
 .page-header {
   background-color: #926ff6;
 }
@@ -157,4 +161,52 @@
   color: #f3849f;
   font-family: var(--PB);
   font-size: 16px;
+}
+
+.main-information {
+  display: flex;
+  background-color: var(--light);
+  padding: 73px 75px;
+  border-radius: 3px;
+  margin-bottom: 105px;
+  column-gap: 60px;
+}
+
+.web-design {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.web-design-information {
+  background-color: #926ff6;
+  padding: 13px 12px 10px 13px;
+  border-radius: 50%;
+}
+
+.web-design-development {
+  background-color: #f3849f;
+  padding: 13px 12px 10px 13px;
+  border-radius: 50%;
+}
+
+.web-design-research {
+  background-color: #79cfff;
+  padding: 13px 12px 10px 13px;
+  border-radius: 50%;
+}
+
+.web-design-title {
+  color: var(--gray);
+  text-align: center;
+  font-family: var(--PM);
+  font-size: 16px;
+  padding-block: 17px 10px;
+}
+
+.web-design-text {
+  color: var(--gray);
+  text-align: center;
+  font-family: var(--PL);
+  font-size: 12px;
 }
