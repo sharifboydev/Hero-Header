@@ -1,0 +1,14 @@
+@media (max-width: 576px) {
+  .header-nav {
+    display: none;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+
+  .header-banner-title {
+    font-size: 35px;
+    padding: 15px;
+  }
+}
