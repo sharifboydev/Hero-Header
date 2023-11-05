@@ -255,3 +255,48 @@ body {
   padding: 5px 18px;
   border-radius: 26px;
 }
+
+.main-images {
+  margin-bottom: 215px;
+}
+
+.main-post {
+  padding: 113px 255px 150px;
+  background-color: #f7eeff;
+}
+
+.main-posts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-banner-title.posts {
+  text-align: center;
+  padding-block: 15px 58px;
+}
+
+.main-post-info {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.web-design-text.post-title {
+  text-align: left;
+}
+
+.main-post-text {
+  color: #f3849f;
+  font-family: var(--PB);
+  font-size: 10px;
+  padding-block: 27px 10px;
+}
+
+.main-post-text.news {
+  color: #926ff6;
+}
+
+.main-post-text.opinion {
+  color: #79cfff;
+}
