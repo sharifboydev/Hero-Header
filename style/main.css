@@ -221,3 +221,37 @@ body {
   display: flex;
   padding-bottom: 15px;
 }
+
+.main-banner-title.active {
+  padding-block: 15px;
+}
+
+.main-projects-link {
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+}
+
+.main-projects-links {
+  color: var(--secondary);
+  text-align: center;
+  font-family: var(--PR);
+  font-size: 11px;
+  transition: 0.5s;
+  cursor: pointer;
+  padding: 5px 18px;
+  transition: 0.5s;
+}
+
+.main-projects-links:hover {
+  color: var(--light);
+  background-color: #f3849f;
+  border-radius: 26px;
+}
+
+.main-projects-links.active {
+  background-color: #f3849f;
+  color: var(--light);
+  padding: 5px 18px;
+  border-radius: 26px;
+}
