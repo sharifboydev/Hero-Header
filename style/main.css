@@ -300,3 +300,21 @@ body {
 .main-post-text.opinion {
   color: #79cfff;
 }
+
+.page-footer {
+  background-color: #333;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-block: 51px;
+  row-gap: 11px;
+}
+
+.footer-text {
+  color: #f7eeff;
+  font-family: var(--PR);
+  font-size: 14px;
+}
