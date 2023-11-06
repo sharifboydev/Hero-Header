@@ -214,7 +214,7 @@ body {
 .main-projects {
   display: flex;
   flex-direction: column;
-  margin-bottom: 42px;
+  margin-bottom: 215px;
 }
 
 .project {
@@ -240,24 +240,31 @@ body {
   transition: 0.5s;
   cursor: pointer;
   padding: 5px 18px;
-  transition: 0.5s;
-}
-
-.main-projects-links:hover {
-  color: var(--light);
-  background-color: #f3849f;
-  border-radius: 26px;
-}
-
-.main-projects-links.active {
-  background-color: #f3849f;
-  color: var(--light);
   padding: 5px 18px;
+  transition: 0.4s;
+}
+
+.main-projects-links:hover,
+.main-projects-links.active {
+  color: var(--light);
+  background-color: #f3849f;
   border-radius: 26px;
 }
 
 .main-images {
-  margin-bottom: 215px;
+  margin-top: 24px;
+}
+
+.main-images-row {
+  display: flex;
+  align-items: center;
+  column-gap: 27px;
+  overflow: hidden;
+}
+
+.main-images-row img {
+  display: block;
+  margin-block: 15px;
 }
 
 .main-post {
