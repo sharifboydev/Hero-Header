@@ -209,6 +209,14 @@ body {
   text-align: center;
   font-family: var(--PL);
   font-size: 12px;
+  max-width: 290px;
+  width: 100%;
+}
+
+.web-design-text.post-title {
+  max-width: 290px;
+  width: 100%;
+  text-align: left;
 }
 
 .main-projects {
@@ -297,10 +305,6 @@ body {
   display: flex;
   align-items: center;
   column-gap: 30px;
-}
-
-.web-design-text.post-title {
-  text-align: left;
 }
 
 .main-post-text {

@@ -1,9 +1,31 @@
+@media (max-width: 970px) {
+  .main-images-row {
+    flex-wrap: wrap;
+    row-gap: 29px;
+    flex-direction: column-reverse;
+  }
+
+  .reverse {
+    flex-direction: column;
+  }
+
+  .main-projects {
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .main-banner-title.active {
+    text-align: center;
+  }
+}
+
 @media (max-width: 915px) {
   .main-information {
     display: flex;
     align-items: center;
     flex-direction: column;
     row-gap: 60px;
+    margin-bottom: 40px;
   }
 }
 
@@ -22,7 +44,8 @@
 
   .header-banner-text,
   .main-banner-title,
-  .main-banner-text {
+  .main-banner-text,
+  .main-projects-links {
     text-align: center;
   }
 
@@ -35,6 +58,12 @@
 
   .main-play {
     display: none;
+  }
+
+  .main-post-info {
+    row-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -61,6 +90,34 @@
 
   .main-banner-title {
     font-size: 20px;
-    padding-block: 10px 10px;
+  }
+
+  .main-information {
+    margin-bottom: 30px;
+  }
+
+  .main-banner-title.active {
+    margin-block: 10px;
+  }
+
+  .main-banner-title.posts {
+    margin-block: 15px;
+  }
+
+  .main-projects-link {
+    column-gap: 5px;
+  }
+
+  .main-projects-links {
+    padding: 5px 9px;
+    font-size: 10px;
+  }
+
+  .main-post {
+    padding-block: 80px 90px;
+  }
+
+  .footer-info {
+    padding-block: 35px;
   }
 }
