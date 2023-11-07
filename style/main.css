@@ -74,10 +74,10 @@ body {
 }
 
 .header-banner-title {
+  font-size: 62px;
+  margin-block: 30px;
   color: var(--light);
   font-family: var(--PEB);
-  font-size: 62px;
-  padding: 30px;
 }
 
 .header-banner_title-text {
@@ -138,7 +138,7 @@ body {
   color: var(--gray);
   font-family: var(--PM);
   font-size: 24px;
-  padding-block: 15px 30px;
+  margin-block: 15px 30px;
 }
 
 .main-banner-text {
@@ -147,7 +147,7 @@ body {
   color: var(--gray);
   font-family: var(--PL);
   font-size: 16px;
-  padding-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .main-play {
@@ -201,7 +201,7 @@ body {
   text-align: center;
   font-family: var(--PM);
   font-size: 16px;
-  padding-block: 17px 10px;
+  margin-block: 17px 10px;
 }
 
 .web-design-text {
@@ -223,7 +223,7 @@ body {
 }
 
 .main-banner-title.active {
-  padding-block: 15px;
+  margin-block: 15px;
 }
 
 .main-projects-link {
@@ -260,16 +260,22 @@ body {
   align-items: center;
   column-gap: 27px;
   overflow: hidden;
+  width: 100%;
 }
 
-.main-images-row img {
-  display: block;
-  margin-block: 15px;
+.small-img {
+  max-width: 359px;
+  width: 100%;
+}
+
+.big-img {
+  max-width: 545px;
+  width: 100%;
 }
 
 .main-post {
-  padding: 113px 255px 150px;
   background-color: #f7eeff;
+  padding-block: 113px 150px;
 }
 
 .main-posts {
@@ -280,7 +286,11 @@ body {
 
 .main-banner-title.posts {
   text-align: center;
-  padding-block: 15px 58px;
+  margin-bottom: 58px;
+}
+
+.reverse {
+  margin-block: 29px;
 }
 
 .main-post-info {
@@ -297,7 +307,7 @@ body {
   color: #f3849f;
   font-family: var(--PB);
   font-size: 10px;
-  padding-block: 27px 10px;
+  margin-block: 27px 10px;
 }
 
 .main-post-text.news {
